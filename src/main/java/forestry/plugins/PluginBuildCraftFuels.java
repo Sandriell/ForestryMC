@@ -41,7 +41,7 @@ public class PluginBuildCraftFuels extends ForestryPlugin {
 
 		Fluid ethanol = Fluids.ETHANOL.getFluid();
 		if (ethanol != null) {
-			int ethanolPower = Math.round(40 * GameMode.getGameMode().getFloatSetting("fuel.ethanol.combustion"));
+			int ethanolPower = Math.round(GameMode.getGameMode().getFloatSetting("fuel.ethanol.combustionPower"));
 			int ethanolBurnTime = Math.round(Defaults.ENGINE_CYCLE_DURATION_ETHANOL * GameMode.getGameMode().getFloatSetting("fuel.ethanol.combustion"));
 			BuildcraftFuelRegistry.fuel.addFuel(ethanol, ethanolPower, ethanolBurnTime);
 		}
