@@ -87,6 +87,7 @@ public class GameMode implements IGameMode {
 		initSetting("farms.fertilizer.value", FARM_FERTILIZER_VALUE, -1, "modifies the time a piece of fertilizer lasts in a farm.");
 
 		initSetting("fuel.ethanol.generator", FUEL_MODIFIER, -1, "modifies the energy provided by ethanol in a Bio Generator.");
+		initSetting("fuel.ethanol.combustionPower", FUEL_MODIFIER, -1, "modifies the output provided by ethanol in Buildcraft Combustion Engines.");
 		initSetting("fuel.ethanol.combustion", FUEL_MODIFIER, -1, "modifies the energy provided by ethanol in Buildcraft Combustion Engines.");
 		initSetting("fuel.biomass.generator", FUEL_MODIFIER, -1, "modifies the energy provided by Biomass in a Bio Generator.");
 		initSetting("fuel.biomass.biogas", FUEL_MODIFIER, -1, "modifies the energy provided by Biomass in Biogas Engines.");
